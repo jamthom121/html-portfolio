@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jason Thompson</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+80s+Fade&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Ovo&family=Rubik+80s+Fade&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+  <style>
+  
+    body{
+     background: #f0f1fa;
+     background: linear-gradient(90deg,rgba(240, 241, 250, 1) 48%, rgba(98, 146, 204, 1) 100%);
+     }
+      
+    .container {
+      display: grid;
+      grid-template-columns: 1;
+      // background-color: lightgrey; 
+      padding: 10px;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .container > div {
+
+        gap: 30px;
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+            }
+
+    .flex-container {
+    display: flex;
+    flex-direction: row;
+     }
+
+    @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    }
+
+    h1{
+      font-size: 2rem;
+      padding:5px;
+      font-family: "Rubik 80s Fade", system-ui;
+     }
+
+    h2 {
+    font-family: "Rubik 80s Fade", system-ui;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 1.7rem;
+    padding:5px;
+    }
+
+    p{
+      font-size: 1.2rem;
+      padding: 2%;
+    font-family: "Ovo", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+ 
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="flex-container top-container">
+    <div>
+          <h1>Hello there.</h1>
+    </div>
+    <div>
+      <img src="./assets/jt-s.jpg" width="80">
+    </div>
+    <div>
+          <h1>I'm Jason.</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container about-me">
+   <div><h1>ABOUT ME</h1></div>
+  <div class="flex-container">
+    <div class="card" style="width: 400px;">
+      <a href="https://en.wikipedia.org/wiki/TRS-80_MC-10">
+        <img class="card-img-top" src="./assets/MC-10.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text">My love of computers and programming started when I was about 10 years old. My parents bought a 
+          Tandy MC-10 type microcomputer for me. It stored programs on a cassette tape. How far we've come!
+</p>
+     </div>
+    </div>
+      <div class="card" style="width: 400px;"">
+      <a href="https://wnpf.org/mount-rainier-national-park/?utm_source=microsoft&utm_medium=cpc&utm_campaign=search&msclkid=2e942218734218448fc74a6adf55684a">
+        <img class="card-img-top" src="./assets/jt-mt-2.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text">My wife and I love to travel. We recently took a cruise to Alaska and visited Mt Rainier upon our return to the Seattle area. What a beautiful part of the country!</p>
+     </div>
+    </div>
+        <div class="card" style="width: 400px;"">
+      <a href="https://theweekendeffect937.com/"><img class="card-img-top" src="./assets/twe.jpg" alt="Card image cap"></a>
+      <div class="card-body">
+        <p class="card-text">I love creating and playing music with my friends. 
+          I play guitar and keyboard for a local cover band known as The Weekend Effect.
+           Here's a pic from a show that occurred during the last solar eclipse. What a trip!</p>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+   <div><h1>SKILLS</h1></div>
+  <div class="flex-container">
+    <div class="card" style="width: 400px;">
+      <div class="card-body">
+        <p class="card-text">I have a Masters in Software Engineering, a Bachelor's in Computer Information Science, and an Associates in both Management and Avionics Systems.
+        </p>
+     </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-body">
+        <p> I've continued my post-graduate education with certifications and online courses. Recently, I've especially enjoyed the UDEMY Full-Stack course from Angela Yu.</p>
+         <ul class="list-group list-group-flush">
+          <li class="list-group-item">Full-Stack Development Bootcamp (August 2025)</li>
+          <li class="list-group-item">CompTIA Security+ (September 2025)</li>
+          <li class="list-group-item">AWS Certified Cloud Practitioner (June 2025) </li>
+          <li class="list-group-item">PMP Certification Preparation Course </li>
+          <li class="list-group-item">Introduction to Agile Project Manaagement</li>
+          <li class="list-group-item">Disciplined Agile Scrum Master Course, PMI </li>
+          <li class="list-group-item">Utilizing SharePoint for Project Management </li>
+         <li class="list-group-item">Implementing & Maintaining SQL Server DB  </li>
+        </ul>
+</div>
+    </div>
+        <div class="card" style="width: 400px;"">
+      <div class="card-body">
+        <p class="card-text">I'm currently preparing for the CompTIA Security+ certification while also developing my full-stack software development skills with online course and projects. I especially enjoy database modeling and web design</p>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div><h1>PROJECTS</h1></div>
+  
+  <div class="flex-container">
+
+   <div class="card" style="width: 400px;"">
+     <div class="card-body">
+        <p class="card-text">I'll be posting links to my Github projects here. One of my next projects is an app
+           for planning social events and activities. </p>
+           <p>I'm intending to use a PostgreSQL database, a Node.js backend, and a React.js frontend. Looking to host the app on AWS or another cloud platform. </p>
+     </div>
+  </div>
+
+</div>
+
+</div>
+
+<div class="container bottom-container">
+    <div>
+      <a class="footer-link" href="https://www.linkedin.com/in/jason-thompson-679a00213/">LinkedIn</a>
+      <!-- <a class="footer-link" href="">Twitter</a>
+      <a class="footer-link" href="">Website</a>
+    -->
+    </div>
+    <div>
+        <p class="copyright">© Jason Thompson.   </p>
+    </div>
+    <div class="quote">
+       <p>"Somewhere, something incredible is waiting to be known." --- Carl Sagan </p>
+    </div>
+    
+ </div>
+</div>
+
+
+</body>
+
+</html>
